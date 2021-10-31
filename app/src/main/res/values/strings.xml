@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab3_3</string>
+    <string name="move_to2" translatable="false">to second</string>
+    <string name="move_to1" translatable="false">to first</string>
+    <string name="move_to3" translatable="false">to third</string>
+    <string name="act_about" translatable="false">Activity about</string>
+</resources>
