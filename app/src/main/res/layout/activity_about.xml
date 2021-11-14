@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     android:layout_marginStart="20dp"
     android:layout_marginEnd="20dp"
-    tools:context=".Activity_about">
+    tools:context=".ActivityAbout"
+    android:id="@+id/activity_about">
 
     <EditText
         android:id="@+id/edTxt1"

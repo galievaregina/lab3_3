@@ -10,16 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat">
         <activity
-            android:name=".Activity_about"
+            android:name=".ActivityAbout"
             android:exported="false" />
         <activity
-            android:name=".Activity_third"
-            android:exported="false" />
+            android:name=".ActivityThird"
+            android:exported="false"
+            android:parentActivityName=".ActivitySecond"/>
         <activity
-            android:name=".Activity_second"
-            android:exported="false" />
+            android:name=".ActivitySecond"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
         <activity
-            android:name=".Activity_first"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
